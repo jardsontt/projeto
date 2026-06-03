@@ -1,0 +1,26 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambiente / segredos
+.env
+.env.*
+
+# Node / Tauri (frontend)
+node_modules/
+src-tauri/target/
+dist/
+
+# Logs e temporários
+*.log
+*.tmp
+
+# Banco e cache locais (caso algum dia aponte para dentro do projeto)
+*.lance
+.cache/
+
+# Sistema operacional
+Thumbs.db
+desktop.ini
